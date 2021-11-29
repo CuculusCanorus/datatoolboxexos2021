@@ -4,9 +4,10 @@
 #script pour l'exo dplyr
 ####################################
 
-#load sp eco data
+
 dat <- data_sp_eco_list()
 mam_per_eco <- table(dat$ecoregion_id)
 hist(mam_per_eco, breaks = 10)
 png(filename = here::here("outputs", "exo_dplyr_hist_mamals.png"))
 dev.off()
+#j'aime
