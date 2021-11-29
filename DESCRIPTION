@@ -1,0 +1,15 @@
+Package: datatoolboxexos2021
+Title: Code pour les Exos de Formation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Erwan", "Harscouet", , "erwan.harscouet@laposte.net", role = c("aut", "cre"))
+Description: Ce compendium presente l'ensemble des scripts produit lors de la formation.
+License: MIT + file LICENSE
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    here,
+    readr
